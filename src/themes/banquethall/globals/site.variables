@@ -1,0 +1,34 @@
+/*******************************
+         Site Settings
+*******************************/
+
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@headerFont        : 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@fontSmoothing     : antialiased;
+
+@googleFontName    : 'Ubuntu';
+@googleFontSizes   : '400,700,400italic,700italic';
+@googleSubset      : 'latin';
+
+
+/*---  Colors  ---*/
+@black            : #091521;
+@blue             : #237DD9;
+@green            : #69BA3A;
+@grey             : #4C6379;
+
+/*---  Light Colors  ---*/
+@lightBlue        : #f6f9fd; //#54C8FF;
+
+/*-------------------
+     Alpha Colors
+--------------------*/
+
+@subtleTransparentBlack : rgba(11, 25, 40, 0.03);
+@transparentBlack       : rgba(11, 25, 40, 0.05);
+@strongTransparentBlack : rgba(11, 25, 40, 0.10);
