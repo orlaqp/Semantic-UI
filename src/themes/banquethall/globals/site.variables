@@ -17,7 +17,7 @@
 
 
 /*---  Colors  ---*/
-@black            : #091521;
+@black            : #010E1B;
 @blue             : #237DD9;
 @green            : #69BA3A;
 @grey             : #4C6379;

@@ -196,13 +196,13 @@ i.white.icon {
   color: #ffffff !important;
 }
 i.black.icon {
-  color: #1b1c1d !important;
+  color: #010e1b !important;
 }
 i.blue.icon {
-  color: #3b83c0 !important;
+  color: #237dd9 !important;
 }
 i.green.icon {
-  color: #5bbd72 !important;
+  color: #69ba3a !important;
 }
 i.orange.icon {
   color: #e07b53 !important;
@@ -234,7 +234,7 @@ i.inverted.black.icon {
   color: #333333 !important;
 }
 i.inverted.blue.icon {
-  color: #54c8ff !important;
+  color: #f6f9fd !important;
 }
 i.inverted.green.icon {
   color: #2ecc40 !important;
@@ -266,17 +266,17 @@ i.inverted.circular.icon {
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #1b1c1d !important;
+  background-color: #010e1b !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #3b83c0 !important;
+  background-color: #237dd9 !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
-  background-color: #5bbd72 !important;
+  background-color: #69ba3a !important;
   color: #FFFFFF !important;
 }
 i.inverted.bordered.orange.icon,

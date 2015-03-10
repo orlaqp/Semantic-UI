@@ -195,7 +195,7 @@ ol.ui.list ol,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
 }
@@ -428,17 +428,17 @@ ol.ui.list ol,
 }
 .ui.selection.list.list > .item:hover,
 .ui.selection.list > .item:hover {
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(11, 25, 40, 0.03);
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.selection.list .list > .item:active,
 .ui.selection.list > .item:active {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(11, 25, 40, 0.05);
   color: rgba(0, 0, 0, 0.8);
 }
 .ui.selection.list .list > .item.active,
 .ui.selection.list > .item.active {
-  background: rgba(0, 0, 0, 0.05);
+  background: #ecf0f5;
   color: rgba(0, 0, 0, 0.8);
 }
 

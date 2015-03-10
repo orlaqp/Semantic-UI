@@ -76,12 +76,12 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05)) #ffffff;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.05)) #ffffff;
+  font-family: 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(transparent, rgba(11, 25, 40, 0.05)) #ffffff;
+  background: linear-gradient(transparent, rgba(11, 25, 40, 0.05)) #ffffff;
   margin: 0em;
   padding: 1.2rem 2rem;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 2px 0 rgba(11, 25, 40, 0.05);
   font-size: 1.6em;
   line-height: 1.3em;
   font-weight: bold;

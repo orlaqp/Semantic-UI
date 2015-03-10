@@ -275,7 +275,7 @@
   left: 0em;
   z-index: 1;
   border: none !important;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(11, 25, 40, 0.05);
   width: 3.5rem;
   height: 0.25rem;
   -webkit-transform: none;
@@ -291,14 +291,14 @@
 /* Handle */
 .ui.slider.checkbox .box:after,
 .ui.slider.checkbox label:after {
-  background: #ffffff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #ffffff -webkit-linear-gradient(transparent, rgba(11, 25, 40, 0.05));
+  background: #ffffff linear-gradient(transparent, rgba(11, 25, 40, 0.05));
   position: absolute;
   content: '';
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 1px 2px 0 rgba(11, 25, 40, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: -0.25rem;
@@ -318,7 +318,7 @@
 .ui.slider.checkbox input[type="checkbox"]:focus ~ label:before,
 .ui.slider.checkbox input[type="radio"]:focus ~ .box:before,
 .ui.slider.checkbox input[type="radio"]:focus ~ label:before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(11, 25, 40, 0.1);
   border: none;
 }
 
@@ -329,7 +329,7 @@
 }
 .ui.slider.checkbox .box:hover::before,
 .ui.slider.checkbox label:hover::before {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(11, 25, 40, 0.1);
 }
 
 /* Active */
@@ -343,7 +343,7 @@
 .ui.slider.checkbox input[type="checkbox"]:checked ~ label:before,
 .ui.slider.checkbox input[type="radio"]:checked ~ .box:before,
 .ui.slider.checkbox input[type="radio"]:checked ~ label:before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(11, 25, 40, 0.1);
 }
 .ui.slider.checkbox input[type="checkbox"]:checked ~ .box:after,
 .ui.slider.checkbox input[type="checkbox"]:checked ~ label:after,
@@ -380,7 +380,7 @@
   top: 0rem;
   z-index: 1;
   border: none;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(11, 25, 40, 0.05);
   width: 3.5rem;
   height: 1.5rem;
   border-radius: 500rem;
@@ -389,14 +389,14 @@
 /* Handle */
 .ui.toggle.checkbox .box:after,
 .ui.toggle.checkbox label:after {
-  background: #ffffff -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #ffffff linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #ffffff -webkit-linear-gradient(transparent, rgba(11, 25, 40, 0.05));
+  background: #ffffff linear-gradient(transparent, rgba(11, 25, 40, 0.05));
   position: absolute;
   content: '';
   opacity: 1;
   z-index: 2;
   border: none;
-  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
+  box-shadow: 0px 1px 2px 0 rgba(11, 25, 40, 0.05), 0px 0px 0px 1px rgba(39, 41, 43, 0.15) inset;
   width: 1.5rem;
   height: 1.5rem;
   top: 0rem;
@@ -421,14 +421,14 @@
 .ui.toggle.checkbox input[type="checkbox"]:focus ~ label:before,
 .ui.toggle.checkbox input[type="radio"]:focus ~ .box:before,
 .ui.toggle.checkbox input[type="radio"]:focus ~ label:before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(11, 25, 40, 0.1);
   border: none;
 }
 
 /* Hover */
 .ui.toggle.checkbox .box:hover::before,
 .ui.toggle.checkbox label:hover::before {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(11, 25, 40, 0.1);
   border: none;
 }
 
@@ -437,13 +437,13 @@
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label,
 .ui.toggle.checkbox input[type="radio"]:checked ~ .box,
 .ui.toggle.checkbox input[type="radio"]:checked ~ label {
-  color: #5bbd72;
+  color: #69ba3a;
 }
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:before,
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label:before,
 .ui.toggle.checkbox input[type="radio"]:checked ~ .box:before,
 .ui.toggle.checkbox input[type="radio"]:checked ~ label:before {
-  background-color: #5bbd72;
+  background-color: #69ba3a;
 }
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ .box:after,
 .ui.toggle.checkbox input[type="checkbox"]:checked ~ label:after,
