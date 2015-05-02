@@ -21,7 +21,7 @@
   margin: -webkit-calc(2rem -  0.165em ) 0em 1rem;
   margin: calc(2rem -  0.165em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Ubuntu', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.33em;
   text-transform: none;
@@ -269,22 +269,22 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.black.header {
-  color: #010e1b !important;
+  color: #1b1c1d !important;
 }
 a.ui.black.header:hover {
-  color: #010e1b !important;
+  color: #1b1c1d !important;
 }
 .ui.blue.header {
-  color: #237dd9 !important;
+  color: #3b83c0 !important;
 }
 a.ui.blue.header:hover {
-  color: #2e85dd !important;
+  color: #458ac6 !important;
 }
 .ui.green.header {
-  color: #69ba3a !important;
+  color: #5bbd72 !important;
 }
 a.ui.green.header:hover {
-  color: #70c340 !important;
+  color: #66c17b !important;
 }
 .ui.orange.header {
   color: #e07b53 !important;
@@ -323,13 +323,13 @@ a.ui.yellow.header:hover {
   color: #f3ca2d !important;
 }
 .ui.black.dividing.header {
-  border-bottom: 2px solid #010e1b;
+  border-bottom: 2px solid #1b1c1d;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #237dd9;
+  border-bottom: 2px solid #3b83c0;
 }
 .ui.green.dividing.header {
-  border-bottom: 2px solid #69ba3a;
+  border-bottom: 2px solid #5bbd72;
 }
 .ui.orange.dividing.header {
   border-bottom: 2px solid #e07b53;
@@ -361,13 +361,13 @@ a.ui.yellow.header:hover {
   color: rgba(255, 255, 255, 0.85);
 }
 .ui.inverted.attached.header {
-  background: #333333 -webkit-linear-gradient(transparent, rgba(11, 25, 40, 0.05));
-  background: #333333 linear-gradient(transparent, rgba(11, 25, 40, 0.05));
+  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
-  background: #333333 -webkit-linear-gradient(transparent, rgba(11, 25, 40, 0.05));
-  background: #333333 linear-gradient(transparent, rgba(11, 25, 40, 0.05));
+  background: #333333 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #333333 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 
@@ -382,10 +382,10 @@ a.ui.inverted.black.header:hover {
   color: #b2b2b2 !important;
 }
 .ui.inverted.blue.header {
-  color: #f6f9fd !important;
+  color: #54c8ff !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #ffffff !important;
+  color: #63cdff !important;
 }
 .ui.inverted.green.header {
   color: #2ecc40 !important;
