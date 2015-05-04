@@ -269,10 +269,10 @@ h5.ui.header .sub.header {
 --------------------*/
 
 .ui.black.header {
-  color: #1b1c1d !important;
+  color: #1d2129 !important;
 }
 a.ui.black.header:hover {
-  color: #1b1c1d !important;
+  color: #1d2129 !important;
 }
 .ui.blue.header {
   color: #3b83c0 !important;
@@ -281,10 +281,10 @@ a.ui.blue.header:hover {
   color: #458ac6 !important;
 }
 .ui.green.header {
-  color: #5bbd72 !important;
+  color: #0bac45 !important;
 }
 a.ui.green.header:hover {
-  color: #66c17b !important;
+  color: #0cba4b !important;
 }
 .ui.orange.header {
   color: #e07b53 !important;
@@ -293,10 +293,10 @@ a.ui.orange.header:hover {
   color: #e28560 !important;
 }
 .ui.pink.header {
-  color: #d9499a !important;
+  color: #ec4a5c !important;
 }
 a.ui.pink.header:hover {
-  color: #dc56a1 !important;
+  color: #ed5868 !important;
 }
 .ui.purple.header {
   color: #564f8a !important;
@@ -305,10 +305,10 @@ a.ui.purple.header:hover {
   color: #5c5594 !important;
 }
 .ui.red.header {
-  color: #d95c5c !important;
+  color: #ec334d !important;
 }
 a.ui.red.header:hover {
-  color: #dc6868 !important;
+  color: #ed4159 !important;
 }
 .ui.teal.header {
   color: #00b5ad !important;
@@ -323,25 +323,25 @@ a.ui.yellow.header:hover {
   color: #f3ca2d !important;
 }
 .ui.black.dividing.header {
-  border-bottom: 2px solid #1b1c1d;
+  border-bottom: 2px solid #1d2129;
 }
 .ui.blue.dividing.header {
   border-bottom: 2px solid #3b83c0;
 }
 .ui.green.dividing.header {
-  border-bottom: 2px solid #5bbd72;
+  border-bottom: 2px solid #0bac45;
 }
 .ui.orange.dividing.header {
   border-bottom: 2px solid #e07b53;
 }
 .ui.pink.dividing.header {
-  border-bottom: 2px solid #d9499a;
+  border-bottom: 2px solid #ec4a5c;
 }
 .ui.purple.dividing.header {
   border-bottom: 2px solid #564f8a;
 }
 .ui.red.dividing.header {
-  border-bottom: 2px solid #d95c5c;
+  border-bottom: 2px solid #ec334d;
 }
 .ui.teal.dividing.header {
   border-bottom: 2px solid #00b5ad;

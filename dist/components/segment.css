@@ -349,25 +349,25 @@
 --------------------*/
 
 .ui.black.segment:not(.inverted) {
-  border-top: 2px solid #1b1c1d;
+  border-top: 2px solid #1d2129;
 }
 .ui.blue.segment:not(.inverted) {
   border-top: 2px solid #3b83c0;
 }
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid #5bbd72;
+  border-top: 2px solid #0bac45;
 }
 .ui.orange.segment:not(.inverted) {
   border-top: 2px solid #e07b53;
 }
 .ui.pink.segment:not(.inverted) {
-  border-top: 2px solid #d9499a;
+  border-top: 2px solid #ec4a5c;
 }
 .ui.purple.segment:not(.inverted) {
   border-top: 2px solid #564f8a;
 }
 .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #d95c5c;
+  border-top: 2px solid #ec334d;
 }
 .ui.teal.segment:not(.inverted) {
   border-top: 2px solid #00b5ad;
@@ -418,7 +418,7 @@
 
 .ui.inverted.segment,
 .ui.inverted.black.segment {
-  background-color: #1b1c1d !important;
+  background-color: #1d2129 !important;
   color: #ffffff !important;
 }
 .ui.inverted.blue.segment {
@@ -426,7 +426,7 @@
   color: #ffffff !important;
 }
 .ui.inverted.green.segment {
-  background-color: #5bbd72 !important;
+  background-color: #0bac45 !important;
   color: #ffffff !important;
 }
 .ui.inverted.orange.segment {
@@ -434,7 +434,7 @@
   color: #ffffff !important;
 }
 .ui.inverted.pink.segment {
-  background-color: #d9499a !important;
+  background-color: #ec4a5c !important;
   color: #ffffff !important;
 }
 .ui.inverted.purple.segment {
@@ -442,7 +442,7 @@
   color: #ffffff !important;
 }
 .ui.inverted.red.segment {
-  background-color: #d95c5c !important;
+  background-color: #ec334d !important;
   color: #ffffff !important;
 }
 .ui.inverted.teal.segment {
@@ -498,7 +498,7 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background-color: #1b1c1d;
+  background-color: #1d2129;
   color: #ffffff;
 }
 .ui.inverted.block.segment,

@@ -238,7 +238,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1d2129;
   color: #ffffff;
 }
 
@@ -328,7 +328,7 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1b1c1d;
+  background-color: #1d2129;
   color: #ffffff;
 }
 .ui.blue.message {
@@ -354,10 +354,10 @@
 }
 .ui.pink.message {
   background-color: #ffe3fb;
-  color: #d9499a;
+  color: #ec4a5c;
 }
 .ui.pink.message .header {
-  color: #d5348e;
+  color: #ea3347;
 }
 .ui.purple.message {
   background-color: #eae7ff;
@@ -368,10 +368,10 @@
 }
 .ui.red.message {
   background-color: #ffe8e6;
-  color: #d95c5c;
+  color: #ec334d;
 }
 .ui.red.message .header {
-  color: #d44747;
+  color: #ea1c39;
 }
 .ui.teal.message {
   background-color: #e9ffff;
