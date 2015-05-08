@@ -1,0 +1,9 @@
+/*--------------
+   Variations
+---------------*/
+
+/* Inverted */
+
+/* Inverted Active */
+
+@invertedActiveBackground: @greyBlue;

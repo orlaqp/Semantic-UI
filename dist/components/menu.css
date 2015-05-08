@@ -1196,7 +1196,7 @@
 
 .ui.inverted.menu .active.item {
   box-shadow: none !important;
-  background: rgba(255, 255, 255, 0.2);
+  background: #33475b;
   color: #ffffff !important;
 }
 .ui.inverted.vertical.menu .item .menu .active.item {
@@ -1594,12 +1594,6 @@
 .ui.large.vertical.menu {
   width: 18rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

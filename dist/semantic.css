@@ -18062,7 +18062,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.inverted.menu .active.item {
   box-shadow: none !important;
-  background: rgba(255, 255, 255, 0.2);
+  background: #33475b;
   color: #ffffff !important;
 }
 
@@ -18518,10 +18518,6 @@ ol.ui.horizontal.list li:before,
 .ui.large.vertical.menu {
   width: 18rem;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 
 /*******************************
          Site Overrides
