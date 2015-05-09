@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import 'https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic&subset=latin';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,700,100italic,300italic,700italic&subset=latin';
 /*!
  * # Semantic UI 1.12.1 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -696,7 +696,7 @@ input::selection {
   padding: 0.78571em 1.5em 0.78571em;
   text-transform: none;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   font-style: normal;
   text-align: center;
@@ -3380,10 +3380,6 @@ input::selection {
   margin-bottom: 0px;
   border-radius: 0px 0px 0.2857rem 0.2857rem;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 
 /*******************************
          Site Overrides
@@ -17867,7 +17863,7 @@ ol.ui.horizontal.list li:before,
 .ui.icon.menu > .item > .icon {
   display: block;
   float: none !important;
-  margin: 0em auto !important;
+  margin: 0.3em auto !important;
   opacity: 1;
 }
 

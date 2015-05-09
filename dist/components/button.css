@@ -28,7 +28,7 @@
   padding: 0.78571em 1.5em 0.78571em;
   text-transform: none;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   font-style: normal;
   text-align: center;
@@ -2377,12 +2377,6 @@
   margin-bottom: 0px;
   border-radius: 0px 0px 0.2857rem 0.2857rem;
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************
