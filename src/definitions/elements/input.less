@@ -438,4 +438,45 @@
   font-size: @relativeMassive;
 }
 
+/*--------------------
+        Colors
+---------------------*/
+
+.ui.input {
+    &.transparent {
+        color: @white;
+        input {
+            background-color: transparent;
+            color: @white;
+
+            &::-webkit-input-placeholder {
+              color: @grey;
+            }
+            &::-moz-placeholder {
+              color: @grey;
+            }
+            &::-ms-input-placeholder {
+              color: @grey;
+            }
+        }
+    }
+    &.black {
+        color: @white;
+        input {
+            background-color: @black;
+            color: @white;
+
+            &::-webkit-input-placeholder {
+              color: @grey;
+            }
+            &::-moz-placeholder {
+              color: @grey;
+            }
+            &::-ms-input-placeholder {
+              color: @grey;
+            }
+        }
+    }
+}
+
 .loadUIOverrides();

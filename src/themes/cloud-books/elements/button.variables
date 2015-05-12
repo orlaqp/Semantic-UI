@@ -9,3 +9,11 @@
 /* Text */
 
 @fontWeight: normal;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Inverted */
+
+@invertedBorderSize: 1px;

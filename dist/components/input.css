@@ -439,6 +439,43 @@
   font-size: 1.71428571em;
 }
 
+/*--------------------
+        Colors
+---------------------*/
+
+.ui.input.transparent {
+  color: #ffffff;
+}
+.ui.input.transparent input {
+  background-color: transparent;
+  color: #ffffff;
+}
+.ui.input.transparent input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.ui.input.transparent input::-moz-placeholder {
+  color: #cccccc;
+}
+.ui.input.transparent input::-ms-input-placeholder {
+  color: #cccccc;
+}
+.ui.input.black {
+  color: #ffffff;
+}
+.ui.input.black input {
+  background-color: #1d2129;
+  color: #ffffff;
+}
+.ui.input.black input::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.ui.input.black input::-moz-placeholder {
+  color: #cccccc;
+}
+.ui.input.black input::-ms-input-placeholder {
+  color: #cccccc;
+}
+
 
 /*******************************
          Theme Overrides

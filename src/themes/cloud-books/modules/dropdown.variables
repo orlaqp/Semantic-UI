@@ -1,0 +1,24 @@
+/*******************************
+            Dropdown
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@transition:
+  border-radius 0.1s ease,
+  width 0.2s ease
+;
+@borderRadius: @defaultBorderRadius;
+
+/*-------------------
+       Content
+--------------------*/
+
+/* Menu */
+// @menuBackground: rgba(255, 255, 255, 0.15);
+
+/* Menu Items */
+// @itemColor: white;
+@itemLineHeight: 0.75em;

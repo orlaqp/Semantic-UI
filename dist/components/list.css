@@ -364,6 +364,11 @@ ol.ui.list ol,
   color: #00b2f3 !important;
 }
 
+/* Colors */
+.ui.inverted.selection.list.green > .item.active {
+  background-color: #0bac45;
+}
+
 /*-------------------
        Link
 --------------------*/

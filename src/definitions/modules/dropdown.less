@@ -1043,4 +1043,37 @@ select.ui.dropdown {
   right: @pointingArrowDistanceFromEdge;
 }
 
+/*--------------------
+         Colors
+----------------------*/
+
+/* black */
+.ui.dropdown.black {
+    .menu { background-color: @black; }
+    .menu .item { color: @grey; }
+}
+
+/* green */
+.ui.dropdown.green {
+    .menu { background-color: @green; }
+    .menu .item { color: @white; }
+}
+
+/* selection */
+.ui.selection.dropdown.transparent {
+    background-color: transparent;
+    color: @grey;
+    border: 0;
+
+    &.visible .text { color: @grey; }
+}
+
+
+.ui.selection.dropdown.black {
+    background-color: @black;
+    color: @grey;
+
+    &.visible .text { color: @grey; }
+}
+
 .loadUIOverrides();
