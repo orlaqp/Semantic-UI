@@ -53,7 +53,7 @@
      Close
 ---------------*/
 
-.ui.modal > .close {
+.ui.modal > .icon-cross-1 {
   cursor: pointer;
   position: absolute;
   top: -2.5rem;
@@ -66,7 +66,7 @@
   height: 2.25rem;
   padding: 0.625rem 0rem 0rem 0rem;
 }
-.ui.modal > .close:hover {
+.ui.modal > .icon-cross-1:hover {
   opacity: 1;
 }
 
@@ -84,7 +84,7 @@
   box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.05);
   font-size: 1.6em;
   line-height: 1.3em;
-  font-weight: bold;
+  font-weight: 100;
   color: rgba(0, 0, 0, 0.85);
   border-bottom: 1px solid rgba(39, 41, 43, 0.15);
 }
@@ -191,10 +191,10 @@
   .ui.modal > .header {
     padding-right: 2.25rem;
   }
-  .ui.modal > .close {
+  .ui.modal > .icon-cross-1 {
     top: 0.905rem;
     right: 1rem;
-    color: rgba(0, 0, 0, 0.8);
+    color: #cccccc;
   }
 }
 
@@ -208,7 +208,7 @@
     display: block;
     padding: 1rem !important;
   }
-  .ui.modal > .close {
+  .ui.modal > .icon-cross-1 {
     top: 0.5rem !important;
     right: 0.5rem !important;
   }
@@ -263,14 +263,14 @@
 .ui.basic.modal > .header {
   color: #ffffff;
 }
-.ui.basic.modal > .close {
+.ui.basic.modal > .icon-cross-1 {
   top: 1rem;
   right: 1.5rem;
 }
 
 /* Tablet and Mobile */
 @media only screen and (max-width: 992px) {
-  .ui.basic.modal > .close {
+  .ui.basic.modal > .icon-cross-1 {
     color: #ffffff;
   }
 }
@@ -333,10 +333,10 @@
 .ui.fullscreen.modal > .header {
   padding-right: 2.25rem;
 }
-.ui.fullscreen.modal > .close {
+.ui.fullscreen.modal > .icon-cross-1 {
   top: 0.905rem;
   right: 1rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 
 /*--------------
@@ -418,12 +418,6 @@
     margin: 0em 0em 0em -25.2%;
   }
 }
-
-
-/*******************************
-         Theme Overrides
-*******************************/
-
 
 
 /*******************************

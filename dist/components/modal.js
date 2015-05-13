@@ -839,7 +839,7 @@ $.fn.modal.settings = {
   onDeny         : function(){ return true; },
 
   selector    : {
-    close    : '.close, .actions .button',
+    close    : '.icon-cross-1, .actions .button',
     approve  : '.actions .positive, .actions .approve, .actions .ok',
     deny     : '.actions .negative, .actions .deny, .actions .cancel',
     modal    : '.ui.modal'

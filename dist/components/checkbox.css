@@ -85,7 +85,7 @@
   height: 17px;
   text-align: center;
   opacity: 0;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
   -webkit-transition: all 0.1s ease;
           transition: all 0.1s ease;
 }
@@ -99,7 +99,7 @@
 .ui.checkbox label,
 .ui.checkbox + label {
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
   -webkit-transition: color 0.2s ease;
           transition: color 0.2s ease;
   -webkit-user-select: none;
@@ -246,7 +246,7 @@
   -webkit-transform: scale(0.42857143);
       -ms-transform: scale(0.42857143);
           transform: scale(0.42857143);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #cccccc;
 }
 
 /*--------------
@@ -364,7 +364,7 @@
 .ui.toggle.checkbox label {
   min-height: 1.5rem;
   padding-left: 4.5rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.toggle.checkbox label {
   padding-top: 0.15em;

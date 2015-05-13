@@ -1,0 +1,25 @@
+/*******************************
+            Input
+*******************************/
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Inverted */
+
+@transparentInvertedColor: @grey;
+
+/* Semi Transparent */
+
+@semiTransparentBorderColor: @darkGrey !important;
+@semiTransparentBackgroundColor: transparent !important;
+@semiTransparentColor: @grey !important;
+@semiTransparentPlaceholderColor: #5F5F5F !important;
+
+/* Underlined */
+
+@underlinedBorderColor: @darkGrey !important;
+@underlinedBackgroundColor: transparent !important;
+@underlinedColor: @grey !important;
+@underlinedPlaceholderColor: #5F5F5F !important;

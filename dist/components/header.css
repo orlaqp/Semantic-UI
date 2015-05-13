@@ -25,7 +25,7 @@
   font-weight: bold;
   line-height: 1.33em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.header:first-child {
   margin-top: -0.165em;
@@ -376,10 +376,10 @@ a.ui.yellow.header:hover {
 --------------------*/
 
 .ui.inverted.black.header {
-  color: #aaaaaa !important;
+  color: #373737 !important;
 }
 a.ui.inverted.black.header:hover {
-  color: #b2b2b2 !important;
+  color: #3f3f3f !important;
 }
 .ui.inverted.blue.header {
   color: #54c8ff !important;

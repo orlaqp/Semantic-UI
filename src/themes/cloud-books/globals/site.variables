@@ -20,4 +20,11 @@
 @green            : #0bac45;
 @pink             : #ec4a5c;
 @red              : #ec334d;
-@greyBlue        : #33475b;
+@greyBlue         : #33475b;
+@darkGrey         : #373737;
+
+/*-------------------
+        Page
+--------------------*/
+
+@textColor           : #ccc;

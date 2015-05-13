@@ -63,7 +63,7 @@
      Close
 ---------------*/
 
-.ui.modal > .close {
+.ui.modal > .icon-cross-1 {
   cursor: pointer;
   position: absolute;
   top: @closeTop;
@@ -78,7 +78,7 @@
   height: @closeHitbox;
   padding: @closePadding;
 }
-.ui.modal > .close:hover {
+.ui.modal > .icon-cross-1:hover {
   opacity: 1;
 }
 
@@ -205,7 +205,7 @@
   .ui.modal > .header {
     padding-right: @closeHitbox;
   }
-  .ui.modal > .close {
+  .ui.modal > .icon-cross-1 {
     top: @innerCloseTop;
     right: @innerCloseRight;
     color: @innerCloseColor;
@@ -223,7 +223,7 @@
     display: block;
     padding: @mobileContentPadding !important;
   }
-  .ui.modal > .close {
+  .ui.modal > .icon-cross-1 {
     top: @mobileCloseTop !important;
     right: @mobileCloseRight !important;
   }
@@ -279,7 +279,7 @@
 .ui.basic.modal > .header {
   color: @basicModalHeaderColor;
 }
-.ui.basic.modal > .close {
+.ui.basic.modal > .icon-cross-1 {
   top: @basicModalCloseTop;
   right: @basicModalCloseRight;
 }
@@ -287,7 +287,7 @@
 /* Tablet and Mobile */
 @media only screen and (max-width : @computerBreakpoint) {
 
-  .ui.basic.modal > .close {
+  .ui.basic.modal > .icon-cross-1 {
     color: @basicInnerCloseColor;
   }
 }
@@ -347,7 +347,7 @@
 .ui.fullscreen.modal > .header {
   padding-right: @closeHitbox;
 }
-.ui.fullscreen.modal > .close {
+.ui.fullscreen.modal > .icon-cross-1 {
   top: @innerCloseTop;
   right: @innerCloseRight;
   color: @innerCloseColor;

@@ -234,6 +234,51 @@
   color: @transparentInvertedPlaceholderColor;
 }
 
+/*--------------------
+   Semi-Transparent
+---------------------*/
+
+.ui.semitransparent.input input {
+  border-color: @semiTransparentBorderColor;
+  background-color: @semiTransparentBackgroundColor;
+  color: @semiTransparentColor;
+}
+
+.ui.semitransparent.input input::-webkit-input-placeholder {
+  color: @semiTransparentPlaceholderColor;
+}
+.ui.semitransparent.input input::-moz-placeholder {
+  color: @semiTransparentPlaceholderColor;
+}
+.ui.semitransparent.input input::-ms-input-placeholder {
+  color: @semiTransparentPlaceholderColor;
+}
+
+/*--------------------
+   Underlined
+---------------------*/
+
+.ui.underlined.input input {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 1px solid @underlinedBorderColor !important;
+  background-color: @underlinedBackgroundColor;
+  color: @underlinedColor;
+}
+
+.ui.underlined.input input::-webkit-input-placeholder {
+  color: @underlinedPlaceholderColor;
+}
+.ui.underlined.input input::-moz-placeholder {
+  color: @underlinedPlaceholderColor;
+}
+.ui.underlined.input input::-ms-input-placeholder {
+  color: @underlinedPlaceholderColor;
+}
+
+
+
 
 /*--------------------
          Icon

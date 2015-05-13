@@ -1324,7 +1324,7 @@
 .ui.grid > .white.row,
 .ui.grid > .row > .white.column {
   background-color: #ffffff !important;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.grid > .row > .white.column {
   margin-top: -1rem;

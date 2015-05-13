@@ -291,7 +291,7 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #aaaaaa rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
+  border-color: #373737 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
   border-style: solid;
   border-width: 0.2em;
   box-shadow: 0px 0px 0px 1px transparent;
@@ -491,7 +491,7 @@
   box-shadow: none;
 }
 .ui.inverted.segment .segment {
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.inverted.segment .inverted.segment {
   color: #ffffff;
@@ -512,11 +512,11 @@
 
 .ui.secondary.segment {
   background: #faf9fa;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.tertiary.segment {
   background: #ebebeb;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.secondary.inverted.segment {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);

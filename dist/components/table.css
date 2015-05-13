@@ -23,7 +23,7 @@
   border: 1px solid #d0d0d0;
   box-shadow: none;
   border-radius: 0.25rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -55,7 +55,7 @@
   cursor: auto;
   background: #f0f0f0;
   text-align: left;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: none;
@@ -86,7 +86,7 @@
   border-top: 1px solid #d4d4d5;
   background: #ffffff;
   text-align: left;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
   padding: 0.7em 0.8em;
   vertical-align: middle;
   font-style: normal;
@@ -750,7 +750,7 @@
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid #d0d0d0;
-  color: rgba(0, 0, 0, 0.8);
+  color: #cccccc;
 }
 .ui.sortable.table thead th:first-child {
   border-left: none;
