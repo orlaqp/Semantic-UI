@@ -6,6 +6,14 @@
        Elements
 --------------------*/
 
+@labelColor: white;
+
 /* Form Label */
 @labelFontSize: 0.9285em;
 @labelFontWeight: 100;
+
+/* Input Error */
+@inputErrorPointerSize: 1px;
+@inputErrorBorderRadius: 0em 0em 0em 0em;
+@inputErrorBoxShadow: 0em -@inputErrorPointerSize 0em 0em @formErrorColor inset;
+@inputErrorFocusBoxShadow: 0em -@inputErrorPointerSize 0em 0em @formErrorColor inset;

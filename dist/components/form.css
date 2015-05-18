@@ -53,14 +53,14 @@
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.2857rem 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
 }
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.2857rem 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
@@ -69,7 +69,7 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0em 1em 0em 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
@@ -374,8 +374,8 @@
   background: #fff0f0;
   border-color: #dbb1b1;
   color: #ec334d;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
-  box-shadow: 2px 0em 0em 0em #ec334d inset;
+  border-radius: 0em 0em 0em 0em;
+  box-shadow: 0em -1px 0em 0em #ec334d inset;
 }
 .ui.form .field.error textarea:focus,
 .ui.form .field.error select:focus,
@@ -394,7 +394,7 @@
   border-color: #dbb1b1;
   color: #ed4159;
   -webkit-appearance: none;
-  box-shadow: 2px 0em 0em 0em #ed4159 inset;
+  box-shadow: 0em -1px 0em 0em #ec334d inset;
 }
 
 /* Preserve Native Select Stylings */

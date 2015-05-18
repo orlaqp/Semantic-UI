@@ -4,4 +4,6 @@
 
 /* Header */
 
+
 @headerFontWeight: 100;
+@contentPadding: 1rem;

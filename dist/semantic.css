@@ -13788,7 +13788,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.2857rem 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
@@ -13796,7 +13796,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.2857rem 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
@@ -13806,7 +13806,7 @@ ol.ui.horizontal.list li:before,
   display: inline-block;
   vertical-align: middle;
   margin: 0em 1em 0em 0em;
-  color: #cccccc;
+  color: white;
   font-size: 0.9285em;
   font-weight: 100;
   text-transform: none;
@@ -14129,8 +14129,8 @@ ol.ui.horizontal.list li:before,
   background: #fff0f0;
   border-color: #dbb1b1;
   color: #ec334d;
-  border-radius: 0em 0.2857rem 0.2857rem 0em;
-  box-shadow: 2px 0em 0em 0em #ec334d inset;
+  border-radius: 0em 0em 0em 0em;
+  box-shadow: 0em -1px 0em 0em #ec334d inset;
 }
 
 .ui.form .field.error textarea:focus,
@@ -14150,7 +14150,7 @@ ol.ui.horizontal.list li:before,
   border-color: #dbb1b1;
   color: #ed4159;
   -webkit-appearance: none;
-  box-shadow: 2px 0em 0em 0em #ed4159 inset;
+  box-shadow: 0em -1px 0em 0em #ec334d inset;
 }
 
 /* Preserve Native Select Stylings */
@@ -18011,11 +18011,21 @@ ol.ui.horizontal.list li:before,
 
 /*--- Light Colors  ---*/
 
+/* blue */
+
 .ui.menu .blue.active.item,
 .ui.blue.menu .active.item {
   border-color: #3b83c0 !important;
   color: #3b83c0 !important;
 }
+
+.ui.secondary.menu .blue.active.item,
+.ui.secondary.blue.menu .active.item {
+  background-color: #3b83c0;
+  color: #ffffff !important;
+}
+
+/* green */
 
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
@@ -18023,11 +18033,27 @@ ol.ui.horizontal.list li:before,
   color: #0bac45 !important;
 }
 
+.ui.secondary.menu .green.active.item,
+.ui.secondary.green.menu .active.item {
+  background-color: #0bac45;
+  color: #ffffff !important;
+}
+
+/* orange */
+
 .ui.menu .orange.active.item,
 .ui.orange.menu .active.item {
   border-color: #e07b53 !important;
   color: #e07b53 !important;
 }
+
+.ui.secondary.menu .orange.active.item,
+.ui.secondary.orange.menu .active.item {
+  background-color: #e07b53;
+  color: #ffffff !important;
+}
+
+/* pink */
 
 .ui.menu .pink.active.item,
 .ui.pink.menu .active.item {
@@ -18035,11 +18061,27 @@ ol.ui.horizontal.list li:before,
   color: #ec4a5c !important;
 }
 
+.ui.secondary.menu .pink.active.item,
+.ui.secondary.pink.menu .active.item {
+  background-color: #ec4a5c;
+  color: #ffffff !important;
+}
+
+/* purple */
+
 .ui.menu .purple.active.item,
 .ui.purple.menu .active.item {
   border-color: #564f8a !important;
   color: #564f8a !important;
 }
+
+.ui.secondary.menu .purple.active.item,
+.ui.secondary.purple.menu .active.item {
+  background-color: #564f8a;
+  color: #ffffff !important;
+}
+
+/* red */
 
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
@@ -18047,16 +18089,38 @@ ol.ui.horizontal.list li:before,
   color: #ec334d !important;
 }
 
+.ui.secondary.menu .red.active.item,
+.ui.secondary.red.menu .active.item {
+  background-color: #ec334d;
+  color: #ffffff !important;
+}
+
+/* teal */
+
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
   border-color: #00b5ad !important;
   color: #00b5ad !important;
 }
 
+.ui.secondary.menu .teal.active.item,
+.ui.secondary.teal.menu .active.item {
+  background-color: #00b5ad;
+  color: #ffffff !important;
+}
+
+/* yellow */
+
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
   border-color: #f2c61f !important;
   color: #f2c61f !important;
+}
+
+.ui.menu .yellow.active.item,
+.ui.yellow.menu .active.item {
+  background-color: #f2c61f;
+  color: #ffffff !important;
 }
 
 /*--------------
@@ -25298,7 +25362,7 @@ select.ui.dropdown {
   width: 100%;
   font-size: 1em;
   line-height: 1.4;
-  padding: 2rem;
+  padding: 1rem;
   background: #ffffff;
 }
 
