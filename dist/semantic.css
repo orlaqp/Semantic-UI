@@ -9353,7 +9353,7 @@ img.ui.bordered.image {
   margin: 0em;
   height: 100%;
   width: 2.82142em;
-  opacity: 0.5;
+  opacity: 1;
   border-radius: 0em 0.2857rem 0.2857rem 0em;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -25255,6 +25255,22 @@ select.ui.dropdown {
 }
 
 .ui.selection.dropdown.black.visible .text {
+  color: #cccccc;
+}
+
+.ui.selection.underlined.dropdown {
+  background-color: transparent;
+  color: #cccccc;
+  border: 0;
+  border-bottom: 1px;
+  border-color: #cccccc;
+}
+
+.ui.selection.underlined.dropdown .menu {
+  background-color: #1d2129;
+}
+
+.ui.selection.underlined.dropdown .menu .item {
   color: #cccccc;
 }
 

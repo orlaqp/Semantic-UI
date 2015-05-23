@@ -23,3 +23,5 @@
 @underlinedBackgroundColor: transparent !important;
 @underlinedColor: @grey !important;
 @underlinedPlaceholderColor: #5F5F5F !important;
+
+@iconOpacity: 1;

@@ -1070,6 +1070,19 @@ select.ui.dropdown {
 .ui.selection.dropdown.black.visible .text {
   color: #cccccc;
 }
+.ui.selection.underlined.dropdown {
+  background-color: transparent;
+  color: #cccccc;
+  border: 0;
+  border-bottom: 1px;
+  border-color: #cccccc;
+}
+.ui.selection.underlined.dropdown .menu {
+  background-color: #1d2129;
+}
+.ui.selection.underlined.dropdown .menu .item {
+  color: #cccccc;
+}
 
 
 /*******************************
