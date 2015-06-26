@@ -4914,7 +4914,7 @@ i.flag.zimbabwe:before {
   margin: calc(2rem -  0.165em ) 0em 1rem;
   padding: 0em 0em;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: 300;
   line-height: 1.33em;
   text-transform: none;
   color: #cccccc;
@@ -4938,7 +4938,7 @@ i.flag.zimbabwe:before {
   padding: 0em;
   font-size: 1.1428rem;
   line-height: 1.2em;
-  color: rgba(0, 0, 0, 0.5);
+  color: #8c8c8c;
 }
 
 /*--------------
@@ -5571,10 +5571,6 @@ a.ui.inverted.yellow.header:hover {
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-size: 1.28em;
 }
-
-/*******************************
-         Theme Overrides
-*******************************/
 
 /*******************************
          Site Overrides
@@ -25262,8 +25258,6 @@ select.ui.dropdown {
   background-color: transparent;
   color: #cccccc;
   border: 0;
-  border-bottom: 1px;
-  border-color: #cccccc;
 }
 
 .ui.selection.underlined.dropdown .menu {

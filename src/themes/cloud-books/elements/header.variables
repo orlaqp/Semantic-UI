@@ -1,0 +1,7 @@
+/*-------------------
+       Element
+--------------------*/
+
+/* Sub Header */
+@fontWeight: 300;
+@subHeaderColor: rgb(140, 140, 140);

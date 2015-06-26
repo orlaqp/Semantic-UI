@@ -1074,8 +1074,6 @@ select.ui.dropdown {
   background-color: transparent;
   color: #cccccc;
   border: 0;
-  border-bottom: 1px;
-  border-color: #cccccc;
 }
 .ui.selection.underlined.dropdown .menu {
   background-color: #1d2129;
