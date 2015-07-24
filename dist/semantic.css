@@ -17350,6 +17350,28 @@ ol.ui.horizontal.list li:before,
 }
 
 /*--------------
+Vertical transparent
+---------------*/
+
+.ui.vertical.menu.transparent {
+  background-color: transparent;
+  border-radius: 0em;
+  box-shadow: none;
+}
+
+.ui.vertical.menu.transparent .item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+}
+
+.ui.vertical.menu.transparent .item.active {
+  border-left: none;
+  border-right: 4px solid #0bac45;
+}
+
+/*--------------
      Tiered
 ---------------*/
 

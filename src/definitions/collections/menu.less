@@ -505,6 +505,28 @@
   display: none;
 }
 
+/*--------------
+Vertical transparent
+---------------*/
+
+.ui.vertical.menu.transparent {
+    background-color: transparent;
+    border-radius: 0em;
+    box-shadow: none;
+
+    .item {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      box-shadow: none;
+
+      &.active {
+          border-left: none;
+          border-right: 4px solid @green;
+      }
+
+    }
+}
 
 /*--------------
      Tiered
