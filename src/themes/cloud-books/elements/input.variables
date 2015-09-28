@@ -11,9 +11,9 @@
 @transparentInvertedColor: @grey;
 
 /* Semi Transparent */
+// @semiTransparentBackgroundColor:
 
 @semiTransparentBorderColor: @darkGrey !important;
-@semiTransparentBackgroundColor: transparent !important;
 @semiTransparentColor: @grey !important;
 @semiTransparentPlaceholderColor: #5F5F5F !important;
 

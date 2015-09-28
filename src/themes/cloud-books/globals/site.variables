@@ -28,3 +28,4 @@
 --------------------*/
 
 @textColor           : #ccc;
+@semiTransparentBackgroundColor: rgba(255, 255, 255, 0.15) !important;

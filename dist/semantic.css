@@ -9295,7 +9295,7 @@ img.ui.bordered.image {
 
 .ui.semitransparent.input input {
   border-color: #373737 !important;
-  background-color: transparent !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
   color: #cccccc !important;
 }
 
@@ -25287,6 +25287,20 @@ select.ui.dropdown {
 }
 
 .ui.selection.underlined.dropdown .menu .item {
+  color: #cccccc;
+}
+
+.ui.selection.semitransparent.dropdown {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #cccccc;
+  border: 0;
+}
+
+.ui.selection.semitransparent.dropdown .menu {
+  background-color: #1d2129;
+}
+
+.ui.selection.semitransparent.dropdown .menu .item {
   color: #cccccc;
 }
 
