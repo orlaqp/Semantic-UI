@@ -284,6 +284,27 @@
   right: @basicModalCloseRight;
 }
 
+.ui.basic.darker.modal {
+  background-color: @basicDarkerBackgroundColor;
+  border: none;
+  border-radius: 0em;
+  box-shadow: 0px 0px 0px 0px;
+  color: @basicModalColor;
+}
+.ui.basic.darker.modal > .header,
+.ui.basic.darker.modal > .content,
+.ui.basic.darker.modal > .actions {
+  background-color: @basicDarkerBackgroundColor;
+}
+.ui.basic.darker.modal > .header {
+  color: @basicModalHeaderColor;
+}
+.ui.basic.darker.modal > .icon-cross-1 {
+  top: @basicModalCloseTop;
+  right: @basicModalCloseRight;
+}
+
+
 /* Tablet and Mobile */
 @media only screen and (max-width : @computerBreakpoint) {
 
