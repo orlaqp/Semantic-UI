@@ -907,6 +907,9 @@ select.ui.dropdown {
   background: #ffffff;
   z-index: 2;
 }
+.ui.pointing.dropdown.green > .menu:after {
+  background: #0bac45;
+}
 .ui.pointing.dropdown > .menu:after {
   top: -0.25em;
   left: 50%;
